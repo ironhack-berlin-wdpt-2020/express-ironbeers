@@ -1,0 +1,8 @@
+<h1>All Beers for {{username}}</h1>
+<div>
+  {{#each beersArr}}
+  <h2>{{this.name}}</h2>
+  <img src="{{this.image_url}}">
+  <p>{{this.description}}</p>
+  {{/each}}
+</div>
